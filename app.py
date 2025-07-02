@@ -24,7 +24,7 @@ model = genai.GenerativeModel("models/gemini-2.5-pro")
 
 def start_browser():
     chrome_options = Options()
-    # chrome_options.add_argument("--headless")  # Enable headless if you want it invisible
+    chrome_options.add_argument("--headless")  # Enable headless if you want it invisible
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     driver = webdriver.Chrome(options=chrome_options)
