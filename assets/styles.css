@@ -1,0 +1,59 @@
+.big-title {
+    font-size: 48px !important;
+    color: #4CAF50;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px !important;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.result-box {
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.stDownloadButton button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.stDownloadButton button:hover {
+    background-color: #45a049;
+}
+
+.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.stButton button:hover {
+    background-color: #45a049;
+}
+
+.sidebar .sidebar-content {
+    background-color: #f0f2f6;
+}
+
+hr {
+    border: 1px solid #4CAF50;
+    margin: 20px 0;
+}
+
+.header-container {
+    padding: 10px 0;
+    text-align: center;
+}
+

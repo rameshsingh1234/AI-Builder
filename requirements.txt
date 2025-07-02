@@ -1,0 +1,6 @@
+Flask
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+openai  # Optional if using GPT API
