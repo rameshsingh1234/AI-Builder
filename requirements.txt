@@ -6,4 +6,4 @@ webdriver-manager
 google-generativeai
 streamlit
 pandas
-openai  # Optional if using GPT API
+

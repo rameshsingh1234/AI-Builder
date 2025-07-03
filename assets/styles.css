@@ -1,3 +1,4 @@
+/* --- Headings --- */
 .big-title {
     font-size: 48px !important;
     color: #4CAF50;
@@ -11,49 +12,58 @@
     margin-bottom: 20px;
 }
 
+/* --- Result box (expander content) --- */
 .result-box {
     border: 1px solid #ddd;
     padding: 15px 20px;
     border-radius: 8px;
     background-color: #fafafa;
     margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
+.result-box pre {
+    font-size: 14px !important;
+}
+
+/* --- Download button --- */
 .stDownloadButton button {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 6px;
-    font-weight: bold;
+    width: 100% !important;
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border-radius: 6px !important;
+    font-weight: bold !important;
+    padding: 10px 16px !important;
+    font-size: 16px !important;
 }
 
 .stDownloadButton button:hover {
-    background-color: #45a049;
+    background-color: #45a049 !important;
 }
 
+/* --- Text input box --- */
+div[data-baseweb="input"] input {
+    height: 48px !important;
+    padding: 0 12px !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    border: 1px solid #ccc !important;
+}
+.stButton button[kind="secondary"],
 .stButton button {
-    background-color: #4CAF50;
-    color: white;
-    font-weight: bold;
-    border-radius: 6px;
+    height: 48px !important;
+    padding: 0 20px !important;
+    font-size: 16px !important;
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 6px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
+.stButton button[kind="secondary"]:hover,
 .stButton button:hover {
-    background-color: #45a049;
+    background-color: #45a049 !important;
 }
-
-.sidebar .sidebar-content {
-    background-color: #f0f2f6;
-}
-
-hr {
-    border: 1px solid #4CAF50;
-    margin: 20px 0;
-}
-
-.header-container {
-    padding: 10px 0;
-    text-align: center;
-}
-
